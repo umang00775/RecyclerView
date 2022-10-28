@@ -31,6 +31,24 @@ public class MainActivity extends AppCompatActivity {
         arrContact.add(new ContactModel(R.drawable.paimon,"Anjali Rathod", "9935375806"));
         arrContact.add(new ContactModel(R.drawable.paimon,"Dharti Rathod", "9513578526"));
         arrContact.add(new ContactModel(R.drawable.paimon,"Chicken Patel", "8698521470"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Umang Rathod", "635324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Akash Rathod", "679324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Suresh Rathod", "679951699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Anjali Rathod", "9935375806"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Dharti Rathod", "9513578526"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Chicken Patel", "8698521470"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Umang Rathod", "635324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Akash Rathod", "679324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Suresh Rathod", "679951699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Anjali Rathod", "9935375806"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Dharti Rathod", "9513578526"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Chicken Patel", "8698521470"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Umang Rathod", "635324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Akash Rathod", "679324699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Suresh Rathod", "679951699"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Anjali Rathod", "9935375806"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Dharti Rathod", "9513578526"));
+        arrContact.add(new ContactModel(R.drawable.paimon,"Chicken Patel", "8698521470"));
 
         RecyclerContactAdapter adapter = new RecyclerContactAdapter(this, arrContact);
         recyclerView.setAdapter(adapter);
